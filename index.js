@@ -1,10 +1,12 @@
-var express = require('express');
-var http = require('http')
-var app = express();
+require('dotenv').config();
+const express = require('express');
+const http = require('http')
+const app = express();
 
 app.use(express.static('public'));
 
-const server = http.createServer(app);
-server.listen(5002, () => console.log(`Running on port ${5002}`));
+http
+  .createServer(app)
+  .listen(process.env.PORT);
 
 
