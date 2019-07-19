@@ -1,0 +1,17 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background: #d13232;
+  background: -webkit-linear-gradient(to top, #4e0e0e, #d13232);
+  background: linear-gradient(to top, #4e0e0e, #d13232);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 250px;
+}

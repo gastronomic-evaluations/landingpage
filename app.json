@@ -1,0 +1,7 @@
+{
+  "name": "gastronomic-evaluations-landingpage",
+  "description": "landingpage for project",
+  "repository": "https://github.com/gastronomic-evaluations/landingpage",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
